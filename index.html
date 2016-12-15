@@ -18,10 +18,25 @@ and open the template in the editor.
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        
         <link rel="stylesheet" href="css/resume-style.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        
+        <script type="text/javascript" src="js/resume.js"></script>
     </head>
     <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a id='info' href="#">Informação Básica</a></li>
+                    <li><a id='educacao' href="#">Educação</a></li>
+                    <li><a id='experiencia' href="#">Experiência</a></li>
+                    <li><a id='linguagens' href="#">Linguagens de Programação</a></li>
+                    <li><a id='linguas' href="#">Linguagens</a></li>
+                </ul>
+            </div>
+        </nav>
         <div class="row">
             <div class="col-xs-12">
                 <div class="row info-tab section">
@@ -32,7 +47,7 @@ and open the template in the editor.
                         <h3>+55 (85) 981856767 | andredeoliveirabastos@gmail.com</h3>
                     </div>
                 </div>
-                <div class="row education-tab section">
+                <div class="row education-tab section" style="display: none;">
                     <div class="col-xs-2 title">
                         <h1>Estudo</h1>
                     </div>
@@ -47,7 +62,7 @@ and open the template in the editor.
                         </ul>
                     </div>
                 </div>
-                <div class="row work-tab section">
+                <div class="row work-tab section" style="display: none;">
                     <div class="col-xs-2 title">
                         <h1>Experiência</h1>
                     </div>
@@ -71,7 +86,7 @@ and open the template in the editor.
                         </ul>
                     </div>
                 </div>
-                <div class="row programming-tab section">
+                <div class="row programming-tab section" style="display: none;">
                     <div class="col-xs-2 title">
                         <h1>Linguagens de Programação</h1>
                     </div>
@@ -95,7 +110,7 @@ and open the template in the editor.
                         </table>
                     </div>
                 </div>
-                <div class="row language-tab section">
+                <div class="row language-tab section" style="display: none;">
                     <div class="col-xs-2 title">
                         <h1>Línguas</h1>
                     </div>
