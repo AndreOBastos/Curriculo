@@ -1,0 +1,15 @@
+.section{
+    padding:150px 80px 150px 80px;
+    font-family: 'Raleway', sans-serif;
+}
+.item{
+    margin:50px 0px 50px 0px;
+}
+
+.info-tab, .work-tab, .language-tab{
+    background-color:#4BA3C3;
+}
+
+.title{
+    text-decoration: underline;
+}
